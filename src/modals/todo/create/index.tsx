@@ -25,7 +25,7 @@ const TaskModal: React.FC<TaskModalProps> = ({ isOpen, onClose, onAddTask }) => 
       <div className="modal-content">
         <h2>Nova tarefa</h2>
         <label>Título</label>
-        <input
+        <input className="modal-content input "
           type="text"
           placeholder="Digite"
           value={task}
